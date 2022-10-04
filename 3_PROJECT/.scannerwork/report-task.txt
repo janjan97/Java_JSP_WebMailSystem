@@ -1,0 +1,6 @@
+projectKey=ood:integration
+serverUrl=http://35.184.209.113:9000
+serverVersion=7.9.6.41879
+dashboardUrl=http://35.184.209.113:9000/dashboard?id=ood%3Aintegration
+ceTaskId=AXnYppuzHzI9ENyW_nLe
+ceTaskUrl=http://35.184.209.113:9000/api/ce/task?id=AXnYppuzHzI9ENyW_nLe

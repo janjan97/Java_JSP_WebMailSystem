@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="0" timestamp="1622837229088" analysisTimestamp="1622837459097" release="">
+  <Project>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\AdminDeleteServlet.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\AdminMainPageServlet.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\BanHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\ChkPasswordHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\CommandType.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\DeluserServlet.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\FindidHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\FindpwHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\LoginHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\ReadMailHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\RegisterHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\TrashHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\UpdateDataHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\UserAdminHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\control\WriteMailHandler.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\ContactSelect.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\FormParser.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\MailFilter.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\MessageFormatter.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\MessageParser.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\Pop3Agent.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\SendMailDAO.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\SmtpAgent.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\TrashTransperDAO.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\TrashTransperDTO.class</Jar>
+    <Jar>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes\cse\maven_webmail\model\UserAdminAgent.class</Jar>
+    <AuxClasspathEntry>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\Jiwon\Documents\GitHub\oodmail\maven_webmail\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="42">
+    <MissingClass>com.sun.mail.smtp.SMTPMessage</MissingClass>
+    <MissingClass>javax.activation.DataHandler</MissingClass>
+    <MissingClass>javax.activation.FileDataSource</MissingClass>
+    <MissingClass>javax.mail.Address</MissingClass>
+    <MissingClass>javax.mail.FetchProfile</MissingClass>
+    <MissingClass>javax.mail.FetchProfile$Item</MissingClass>
+    <MissingClass>javax.mail.Flags$Flag</MissingClass>
+    <MissingClass>javax.mail.Folder</MissingClass>
+    <MissingClass>javax.mail.Message</MissingClass>
+    <MissingClass>javax.mail.Message$RecipientType</MissingClass>
+    <MissingClass>javax.mail.Multipart</MissingClass>
+    <MissingClass>javax.mail.Part</MissingClass>
+    <MissingClass>javax.mail.Session</MissingClass>
+    <MissingClass>javax.mail.Store</MissingClass>
+    <MissingClass>javax.mail.Transport</MissingClass>
+    <MissingClass>javax.mail.internet.InternetAddress</MissingClass>
+    <MissingClass>javax.mail.internet.MimeBodyPart</MissingClass>
+    <MissingClass>javax.mail.internet.MimeMultipart</MissingClass>
+    <MissingClass>javax.mail.internet.MimeUtility</MissingClass>
+    <MissingClass>javax.mail.search.FromStringTerm</MissingClass>
+    <MissingClass>javax.servlet.RequestDispatcher</MissingClass>
+    <MissingClass>javax.servlet.ServletContext</MissingClass>
+    <MissingClass>javax.servlet.ServletOutputStream</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServlet</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletRequest</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletResponse</MissingClass>
+    <MissingClass>javax.servlet.http.HttpSession</MissingClass>
+    <MissingClass>org.apache.commons.fileupload.FileItem</MissingClass>
+    <MissingClass>org.apache.commons.fileupload.disk.DiskFileItemFactory</MissingClass>
+    <MissingClass>org.apache.commons.fileupload.servlet.ServletFileUpload</MissingClass>
+    <MissingClass>org.apache.james.mime4j.MimeException</MissingClass>
+    <MissingClass>org.apache.james.mime4j.codec.DecodeMonitor</MissingClass>
+    <MissingClass>org.apache.james.mime4j.dom.Header</MissingClass>
+    <MissingClass>org.apache.james.mime4j.message.DefaultBodyDescriptorBuilder</MissingClass>
+    <MissingClass>org.apache.james.mime4j.parser.MimeStreamParser</MissingClass>
+    <MissingClass>org.apache.james.mime4j.stream.Field</MissingClass>
+    <MissingClass>org.apache.james.mime4j.stream.MimeConfig</MissingClass>
+    <MissingClass>org.slf4j.Logger</MissingClass>
+    <MissingClass>org.slf4j.LoggerFactory</MissingClass>
+    <MissingClass>tech.blueglacier.email.Attachment</MissingClass>
+    <MissingClass>tech.blueglacier.email.Email</MissingClass>
+    <MissingClass>tech.blueglacier.parser.CustomContentHandler</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 5 Jun 2021 05:07:09 +0900" total_classes="26" referenced_classes="73" total_bugs="0" total_size="2435" num_packages="2" java_version="11.0.11" vm_version="11.0.11+9" cpu_seconds="28.27" clock_seconds="6.66" peak_mbytes="672.55" alloc_mbytes="4060.00" gc_seconds="0.05">
+    <FileStats path="cse/maven_webmail/control/AdminDeleteServlet.java" bugCount="0" size="83"/>
+    <FileStats path="cse/maven_webmail/control/AdminMainPageServlet.java" bugCount="0" size="63"/>
+    <FileStats path="cse/maven_webmail/control/BanHandler.java" bugCount="0" size="72"/>
+    <FileStats path="cse/maven_webmail/control/ChkPasswordHandler.java" bugCount="0" size="54"/>
+    <FileStats path="cse/maven_webmail/control/CommandType.java" bugCount="0" size="17"/>
+    <FileStats path="cse/maven_webmail/control/DeluserServlet.java" bugCount="0" size="76"/>
+    <FileStats path="cse/maven_webmail/control/FindidHandler.java" bugCount="0" size="79"/>
+    <FileStats path="cse/maven_webmail/control/FindpwHandler.java" bugCount="0" size="103"/>
+    <FileStats path="cse/maven_webmail/control/LoginHandler.java" bugCount="0" size="49"/>
+    <FileStats path="cse/maven_webmail/control/ReadMailHandler.java" bugCount="0" size="64"/>
+    <FileStats path="cse/maven_webmail/control/RegisterHandler.java" bugCount="0" size="183"/>
+    <FileStats path="cse/maven_webmail/control/TrashHandler.java" bugCount="0" size="67"/>
+    <FileStats path="cse/maven_webmail/control/UpdateDataHandler.java" bugCount="0" size="125"/>
+    <FileStats path="cse/maven_webmail/control/UserAdminHandler.java" bugCount="0" size="114"/>
+    <FileStats path="cse/maven_webmail/control/WriteMailHandler.java" bugCount="0" size="70"/>
+    <FileStats path="cse/maven_webmail/model/ContactSelect.java" bugCount="0" size="64"/>
+    <FileStats path="cse/maven_webmail/model/FormParser.java" bugCount="0" size="90"/>
+    <FileStats path="cse/maven_webmail/model/MailFilter.java" bugCount="0" size="57"/>
+    <FileStats path="cse/maven_webmail/model/MessageFormatter.java" bugCount="0" size="71"/>
+    <FileStats path="cse/maven_webmail/model/MessageParser.java" bugCount="0" size="140"/>
+    <FileStats path="cse/maven_webmail/model/Pop3Agent.java" bugCount="0" size="138"/>
+    <FileStats path="cse/maven_webmail/model/SendMailDAO.java" bugCount="0" size="122"/>
+    <FileStats path="cse/maven_webmail/model/SmtpAgent.java" bugCount="0" size="95"/>
+    <FileStats path="cse/maven_webmail/model/TrashTransperDAO.java" bugCount="0" size="199"/>
+    <FileStats path="cse/maven_webmail/model/TrashTransperDTO.java" bugCount="0" size="61"/>
+    <FileStats path="cse/maven_webmail/model/UserAdminAgent.java" bugCount="0" size="179"/>
+    <PackageStats package="cse.maven_webmail.control" total_bugs="0" total_types="15" total_size="1219">
+      <ClassStats class="cse.maven_webmail.control.AdminDeleteServlet" sourceFile="AdminDeleteServlet.java" interface="false" size="83" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.AdminMainPageServlet" sourceFile="AdminMainPageServlet.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.BanHandler" sourceFile="BanHandler.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.ChkPasswordHandler" sourceFile="ChkPasswordHandler.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.CommandType" sourceFile="CommandType.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.DeluserServlet" sourceFile="DeluserServlet.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.FindidHandler" sourceFile="FindidHandler.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.FindpwHandler" sourceFile="FindpwHandler.java" interface="false" size="103" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.LoginHandler" sourceFile="LoginHandler.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.ReadMailHandler" sourceFile="ReadMailHandler.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.RegisterHandler" sourceFile="RegisterHandler.java" interface="false" size="183" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.TrashHandler" sourceFile="TrashHandler.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.UpdateDataHandler" sourceFile="UpdateDataHandler.java" interface="false" size="125" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.UserAdminHandler" sourceFile="UserAdminHandler.java" interface="false" size="114" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.control.WriteMailHandler" sourceFile="WriteMailHandler.java" interface="false" size="70" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cse.maven_webmail.model" total_bugs="0" total_types="11" total_size="1216">
+      <ClassStats class="cse.maven_webmail.model.ContactSelect" sourceFile="ContactSelect.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.FormParser" sourceFile="FormParser.java" interface="false" size="90" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.MailFilter" sourceFile="MailFilter.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.MessageFormatter" sourceFile="MessageFormatter.java" interface="false" size="71" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.MessageParser" sourceFile="MessageParser.java" interface="false" size="140" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.Pop3Agent" sourceFile="Pop3Agent.java" interface="false" size="138" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.SendMailDAO" sourceFile="SendMailDAO.java" interface="false" size="122" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.SmtpAgent" sourceFile="SmtpAgent.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.TrashTransperDAO" sourceFile="TrashTransperDAO.java" interface="false" size="199" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.TrashTransperDTO" sourceFile="TrashTransperDTO.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="cse.maven_webmail.model.UserAdminAgent" sourceFile="UserAdminAgent.java" interface="false" size="179" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="554" invocations="2" avgMicrosecondsPerInvocation="277167" maxMicrosecondsPerInvocation="327872" standardDeviationMicrosecondsPerInvocation="50707"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="403" invocations="700" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="21152" standardDeviationMicrosecondsPerInvocation="1296"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="254" invocations="241" avgMicrosecondsPerInvocation="1055" maxMicrosecondsPerInvocation="38268" standardDeviationMicrosecondsPerInvocation="3546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="187" invocations="241" avgMicrosecondsPerInvocation="779" maxMicrosecondsPerInvocation="12030" standardDeviationMicrosecondsPerInvocation="1553"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="175" invocations="241" avgMicrosecondsPerInvocation="729" maxMicrosecondsPerInvocation="25663" standardDeviationMicrosecondsPerInvocation="2130"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="164" invocations="245" avgMicrosecondsPerInvocation="670" maxMicrosecondsPerInvocation="21347" standardDeviationMicrosecondsPerInvocation="1928"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="159" invocations="704" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="4928" standardDeviationMicrosecondsPerInvocation="217"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="159" invocations="251" avgMicrosecondsPerInvocation="633" maxMicrosecondsPerInvocation="16291" standardDeviationMicrosecondsPerInvocation="1785"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="154" invocations="241" avgMicrosecondsPerInvocation="643" maxMicrosecondsPerInvocation="14038" standardDeviationMicrosecondsPerInvocation="1643"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="149" invocations="73" avgMicrosecondsPerInvocation="2052" maxMicrosecondsPerInvocation="30394" standardDeviationMicrosecondsPerInvocation="4160"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="138" invocations="26" avgMicrosecondsPerInvocation="5323" maxMicrosecondsPerInvocation="13550" standardDeviationMicrosecondsPerInvocation="3381"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="128" invocations="452" avgMicrosecondsPerInvocation="284" maxMicrosecondsPerInvocation="7126" standardDeviationMicrosecondsPerInvocation="560"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="120" invocations="241" avgMicrosecondsPerInvocation="500" maxMicrosecondsPerInvocation="14542" standardDeviationMicrosecondsPerInvocation="1159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="112" invocations="160" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="11533" standardDeviationMicrosecondsPerInvocation="1546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="100" invocations="73" avgMicrosecondsPerInvocation="1374" maxMicrosecondsPerInvocation="11773" standardDeviationMicrosecondsPerInvocation="1931"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="73" invocations="241" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="36852" standardDeviationMicrosecondsPerInvocation="2378"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="68" invocations="128" avgMicrosecondsPerInvocation="533" maxMicrosecondsPerInvocation="3445" standardDeviationMicrosecondsPerInvocation="645"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="55" invocations="153" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="8683" standardDeviationMicrosecondsPerInvocation="972"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="51" invocations="73" avgMicrosecondsPerInvocation="701" maxMicrosecondsPerInvocation="6449" standardDeviationMicrosecondsPerInvocation="1286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="49" invocations="175" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="18137" standardDeviationMicrosecondsPerInvocation="1418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="43" invocations="241" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="2987" standardDeviationMicrosecondsPerInvocation="394"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="40" invocations="612" avgMicrosecondsPerInvocation="66" maxMicrosecondsPerInvocation="1747" standardDeviationMicrosecondsPerInvocation="126"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="38" invocations="73" avgMicrosecondsPerInvocation="532" maxMicrosecondsPerInvocation="3644" standardDeviationMicrosecondsPerInvocation="572"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="36" invocations="26" avgMicrosecondsPerInvocation="1391" maxMicrosecondsPerInvocation="3962" standardDeviationMicrosecondsPerInvocation="951"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="31" invocations="26" avgMicrosecondsPerInvocation="1197" maxMicrosecondsPerInvocation="3527" standardDeviationMicrosecondsPerInvocation="714"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="31" invocations="26" avgMicrosecondsPerInvocation="1196" maxMicrosecondsPerInvocation="2969" standardDeviationMicrosecondsPerInvocation="663"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="30" invocations="73" avgMicrosecondsPerInvocation="424" maxMicrosecondsPerInvocation="6154" standardDeviationMicrosecondsPerInvocation="897"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="30" invocations="73" avgMicrosecondsPerInvocation="424" maxMicrosecondsPerInvocation="3632" standardDeviationMicrosecondsPerInvocation="735"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="30" invocations="73" avgMicrosecondsPerInvocation="421" maxMicrosecondsPerInvocation="9694" standardDeviationMicrosecondsPerInvocation="1270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="29" invocations="73" avgMicrosecondsPerInvocation="397" maxMicrosecondsPerInvocation="2697" standardDeviationMicrosecondsPerInvocation="553"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="28" invocations="26" avgMicrosecondsPerInvocation="1095" maxMicrosecondsPerInvocation="2874" standardDeviationMicrosecondsPerInvocation="620"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="27" invocations="7191" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="1538" standardDeviationMicrosecondsPerInvocation="25"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="27" invocations="26" avgMicrosecondsPerInvocation="1066" maxMicrosecondsPerInvocation="2739" standardDeviationMicrosecondsPerInvocation="660"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="27" invocations="26" avgMicrosecondsPerInvocation="1066" maxMicrosecondsPerInvocation="4634" standardDeviationMicrosecondsPerInvocation="991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="26" invocations="26" avgMicrosecondsPerInvocation="1027" maxMicrosecondsPerInvocation="4202" standardDeviationMicrosecondsPerInvocation="997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="26" invocations="241" avgMicrosecondsPerInvocation="108" maxMicrosecondsPerInvocation="2395" standardDeviationMicrosecondsPerInvocation="274"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="26" invocations="73" avgMicrosecondsPerInvocation="358" maxMicrosecondsPerInvocation="12718" standardDeviationMicrosecondsPerInvocation="1499"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="25" invocations="26" avgMicrosecondsPerInvocation="988" maxMicrosecondsPerInvocation="10968" standardDeviationMicrosecondsPerInvocation="2021"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="24" invocations="26" avgMicrosecondsPerInvocation="955" maxMicrosecondsPerInvocation="5110" standardDeviationMicrosecondsPerInvocation="1021"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="24" invocations="26" avgMicrosecondsPerInvocation="931" maxMicrosecondsPerInvocation="4529" standardDeviationMicrosecondsPerInvocation="966"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="23" invocations="26" avgMicrosecondsPerInvocation="900" maxMicrosecondsPerInvocation="2001" standardDeviationMicrosecondsPerInvocation="442"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="22" invocations="26" avgMicrosecondsPerInvocation="869" maxMicrosecondsPerInvocation="2034" standardDeviationMicrosecondsPerInvocation="455"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="21" invocations="241" avgMicrosecondsPerInvocation="87" maxMicrosecondsPerInvocation="1307" standardDeviationMicrosecondsPerInvocation="158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="20" invocations="73" avgMicrosecondsPerInvocation="278" maxMicrosecondsPerInvocation="2942" standardDeviationMicrosecondsPerInvocation="424"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation" totalMilliseconds="20" invocations="26" avgMicrosecondsPerInvocation="780" maxMicrosecondsPerInvocation="7313" standardDeviationMicrosecondsPerInvocation="1369"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetector" totalMilliseconds="19" invocations="26" avgMicrosecondsPerInvocation="748" maxMicrosecondsPerInvocation="3440" standardDeviationMicrosecondsPerInvocation="693"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="18" invocations="73" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="4932" standardDeviationMicrosecondsPerInvocation="966"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="18" invocations="26" avgMicrosecondsPerInvocation="692" maxMicrosecondsPerInvocation="2005" standardDeviationMicrosecondsPerInvocation="466"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="17" invocations="26" avgMicrosecondsPerInvocation="690" maxMicrosecondsPerInvocation="1763" standardDeviationMicrosecondsPerInvocation="422"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetector" totalMilliseconds="17" invocations="26" avgMicrosecondsPerInvocation="668" maxMicrosecondsPerInvocation="1758" standardDeviationMicrosecondsPerInvocation="415"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="17" invocations="241" avgMicrosecondsPerInvocation="71" maxMicrosecondsPerInvocation="4273" standardDeviationMicrosecondsPerInvocation="321"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="17" invocations="26" avgMicrosecondsPerInvocation="657" maxMicrosecondsPerInvocation="1476" standardDeviationMicrosecondsPerInvocation="350"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="16" invocations="26" avgMicrosecondsPerInvocation="644" maxMicrosecondsPerInvocation="1364" standardDeviationMicrosecondsPerInvocation="285"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="16" invocations="26" avgMicrosecondsPerInvocation="636" maxMicrosecondsPerInvocation="1813" standardDeviationMicrosecondsPerInvocation="390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="16" invocations="26" avgMicrosecondsPerInvocation="621" maxMicrosecondsPerInvocation="2090" standardDeviationMicrosecondsPerInvocation="453"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="15" invocations="26" avgMicrosecondsPerInvocation="606" maxMicrosecondsPerInvocation="2952" standardDeviationMicrosecondsPerInvocation="515"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetector" totalMilliseconds="15" invocations="26" avgMicrosecondsPerInvocation="603" maxMicrosecondsPerInvocation="1598" standardDeviationMicrosecondsPerInvocation="323"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="15" invocations="26" avgMicrosecondsPerInvocation="600" maxMicrosecondsPerInvocation="1411" standardDeviationMicrosecondsPerInvocation="317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="15" invocations="26" avgMicrosecondsPerInvocation="588" maxMicrosecondsPerInvocation="1764" standardDeviationMicrosecondsPerInvocation="389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="14" invocations="6251" avgMicrosecondsPerInvocation="2" maxMicrosecondsPerInvocation="64" standardDeviationMicrosecondsPerInvocation="2"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.endpoint.ServletEndpointDetector" totalMilliseconds="14" invocations="26" avgMicrosecondsPerInvocation="573" maxMicrosecondsPerInvocation="1345" standardDeviationMicrosecondsPerInvocation="343"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="14" invocations="26" avgMicrosecondsPerInvocation="566" maxMicrosecondsPerInvocation="1289" standardDeviationMicrosecondsPerInvocation="322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CrossSiteScripting" totalMilliseconds="14" invocations="26" avgMicrosecondsPerInvocation="566" maxMicrosecondsPerInvocation="1186" standardDeviationMicrosecondsPerInvocation="271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" totalMilliseconds="14" invocations="26" avgMicrosecondsPerInvocation="564" maxMicrosecondsPerInvocation="1802" standardDeviationMicrosecondsPerInvocation="354"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PredictableRandomDetector" totalMilliseconds="14" invocations="26" avgMicrosecondsPerInvocation="564" maxMicrosecondsPerInvocation="1547" standardDeviationMicrosecondsPerInvocation="305"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/maven_webmail">
+<Resource 
+    auth="Container"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://35.184.209.113:11269/ood?autoReconnect=true&amp;serverTimezone=Asia/Seoul&amp;useSSL=false"
+    username="ooduser"
+    password="ooduser"
+    name="jdbc/JamesWebmail"  
+    type="javax.sql.DataSource"
+    maxActive ="50"
+    maxWait="1000"
+/>
+              
+</Context>
